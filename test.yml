@@ -5,4 +5,4 @@
   - name: Creating a file with content
     copy:
       dest: "/tmp/test.txt"
-      content: "{{ lookup('cypher','secret=password/myusername') }}"
+      content: "{{ lookup('cypher','secret=secret/testtnadmin') }}"
